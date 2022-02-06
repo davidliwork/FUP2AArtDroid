@@ -2,7 +2,7 @@ package com.faceunity.pta_art.core;
 
 import android.content.Context;
 import android.os.HandlerThread;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 

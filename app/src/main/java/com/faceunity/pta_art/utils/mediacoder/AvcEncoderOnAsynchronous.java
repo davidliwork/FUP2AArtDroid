@@ -4,7 +4,7 @@ import android.annotation.SuppressLint;
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
 import android.media.MediaFormat;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

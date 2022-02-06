@@ -1,7 +1,7 @@
 package com.faceunity.pta_art.utils.sta;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.faceunity.FUTtsEngine;
 import com.faceunity.pta_art.core.authpack;

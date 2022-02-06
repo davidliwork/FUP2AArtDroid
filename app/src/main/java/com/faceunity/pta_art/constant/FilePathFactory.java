@@ -1,6 +1,6 @@
 package com.faceunity.pta_art.constant;
 
-import android.support.v4.util.ArrayMap;
+import androidx.collection.ArrayMap;
 
 import com.faceunity.pta_art.FUApplication;
 import com.faceunity.pta_art.R;

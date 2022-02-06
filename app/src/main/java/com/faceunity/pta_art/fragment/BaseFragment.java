@@ -1,7 +1,7 @@
 package com.faceunity.pta_art.fragment;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.MotionEvent;
 
 import com.faceunity.pta_art.MainActivity;

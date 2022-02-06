@@ -8,7 +8,7 @@ import android.hardware.Camera;
 import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
-import android.support.v7.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.text.TextUtils;
 
 import com.faceunity.pta_art.gles.FBOUtils;

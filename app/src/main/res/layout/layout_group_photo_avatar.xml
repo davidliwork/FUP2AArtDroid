@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -47,7 +47,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <android.support.design.widget.TabLayout
+    <com.google.android.material.tabs.TabLayout
         android:id="@+id/group_photo_avatar_tablayout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/x80"
@@ -62,14 +62,14 @@
         app:tabPaddingEnd="@dimen/x52"
         app:tabPaddingStart="@dimen/x52" />
 
-    <android.support.v4.view.ViewPager
+    <androidx.viewpager.widget.ViewPager
         android:id="@+id/group_photo_avatar_viewpager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/group_photo_avatar_tablayout" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/group_photo_avatar_recycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -78,4 +78,4 @@
         android:layout_marginTop="@dimen/x42"
         android:background="#FFFFFF"
         app:layout_constraintTop_toBottomOf="@id/group_photo_avatar_tablayout" />
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

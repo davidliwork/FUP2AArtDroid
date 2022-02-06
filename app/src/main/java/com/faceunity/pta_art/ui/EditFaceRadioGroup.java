@@ -2,8 +2,8 @@ package com.faceunity.pta_art.ui;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.annotation.IdRes;
-import android.support.annotation.Nullable;
+import androidx.annotation.IdRes;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;

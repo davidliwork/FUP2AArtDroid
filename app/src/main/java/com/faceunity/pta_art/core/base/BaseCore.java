@@ -2,7 +2,7 @@ package com.faceunity.pta_art.core.base;
 
 import android.content.Context;
 import android.hardware.Camera;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.faceunity.pta_art.constant.FilePathFactory;

@@ -2,9 +2,9 @@ package com.faceunity.pta_art.fragment.editface.core.shape;
 
 import android.content.Context;
 import android.graphics.Point;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.view.GestureDetectorCompat;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.view.GestureDetectorCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.GestureDetector;

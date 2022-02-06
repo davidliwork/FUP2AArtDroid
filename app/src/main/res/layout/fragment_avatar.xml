@@ -14,7 +14,7 @@
         android:background="@drawable/avatar_track_image_btn"
         android:button="@null" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/avatar_bottom_recycler"
         android:layout_width="match_parent"
         android:layout_height="@dimen/x420"

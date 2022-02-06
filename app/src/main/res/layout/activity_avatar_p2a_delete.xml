@@ -34,7 +34,7 @@
         android:scaleType="centerInside"
         android:src="@drawable/delete_avatar_p2a_back" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/avatar_p2a_delete_recycler"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
